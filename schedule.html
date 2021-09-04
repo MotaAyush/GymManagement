@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/Gym-club-logo-template-on-transparent-background-PNG.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="center.html">OUR CENTER</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Batches For Both Morning & Evening Sessions</h1>
+    </section>
+
+
+
+<!--------- Schedules ------->
+
+
+<section class="schedule-content">
+
+    <div class="row">
+        <div class="schedule-right">
+            <img src="Images/personal-trainer_1800x.jpg">
+            <h2>Different Sessions at Different Time</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, rerum ipsum sint quaerat ab dolor laudantium placeat dolores illum error eum, harum quas alias aspernatur suscipit consequatur? Fugiat, animi cupiditate.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, deserunt. Fugiat libero deserunt tempora dolorem animi ad obcaecati delectus distinctio a cupiditate minima ipsa maxime at facere harum ex error alias, accusantium mollitia veritatis qui. Exercitationem dolorum harum quo voluptate pariatur consequuntur magni perferendis necessitatibus a? Dolore nesciunt rerum possimus consequuntur eius quia ratione voluptas sequi deserunt, dolores magnam reiciendis!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam quibusdam necessitatibus doloribus nihil adipisci expedita cupiditate alias, rem unde harum explicabo placeat consectetur sequi dolor odio laborum provident illo atque, dignissimos magni sed. Molestias est necessitatibus, hic earum expedita quas.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi eaque molestiae fuga? Eum nemo optio quod consequuntur eos voluptate quasi dolorem, ea magnam culpa labore itaque minus doloremque hic voluptas?</p>
+
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+            
+
+        </div>
+        <div class="schedule-left">
+            <h3>Timings for both Morning & Evening Sessions</h3>
+            <div>
+                <span>Yoga Session</span>
+                <span>6:00 - 6:30</span>
+            </div>
+            <div>
+                <span>Cardiovascular Session</span>
+                <span>6:40 - 7:10</span>
+            </div>
+            <div>
+                <span>Free - Weights Session</span>
+                <span>7:30 - 8:30</span>
+            </div>
+            <div>
+                <span>Sauna Bath</span>
+                <span>8:40 - 9:00</span>
+            </div>
+            <div>
+                <span>Other Activites <br> (Swimming, Squash, etc.)</span>
+                <span>Upto 12</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia dolore alias, impedit architecto ea molestias quos voluptates perferendis doloremque <br> tempora recusandae illo accusamus ipsa, sit harum asperiores ipsum voluptatibus?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made by AYUSH MOTA</p>
+</section>
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>

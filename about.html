@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/Gym-club-logo-template-on-transparent-background-PNG.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="center.html">OUR CENTER</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!---------Welcome--------->
+
+
+
+ <section class="welcome">
+    <h1>Welcome to Extreme Fitness Center</h1>
+    <p>We Believe the Quality of your Health determines the Quality of your Life and nothing is more important than that.</p>
+    <div class="row">
+         <div class="welcome-col">
+             <h3>Establised in 2002</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rerum, veritatis necessitatibus tempore nemo ducimus hic eius maxime autem quaerat ex, minus accusamus. Soluta consequatur nihil earum iure, adipisci praesentium.</p>
+         </div>
+         <div class="welcome-col">
+            <h3>What We Do</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rerum, veritatis necessitatibus tempore nemo ducimus hic eius maxime autem quaerat ex, minus accusamus. Soluta consequatur nihil earum iure, adipisci praesentium.</p>
+        </div>
+        <div class="welcome-col">
+            <h3>Positive Culture</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rerum, veritatis necessitatibus tempore nemo ducimus hic eius maxime autem quaerat ex, minus accusamus. Soluta consequatur nihil earum iure, adipisci praesentium.</p>
+        </div>
+    </div>
+ </section>
+
+
+
+<!--------- About Us Content ------->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the Best Fitness Center in your Area</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit debitis eveniet natus ex sed magnam nemo nesciunt enim, aspernatur consequuntur expedita dolore accusantium. Ipsa perspiciatis magnam dicta, atque nesciunt eaque dolorem, corrupti blanditiis deleniti soluta iste, enim minus? Id laborum ut voluptas at, quae necessitatibus placeat ullam maxime asperiores saepe dolorum ab molestias iure deleniti enim esse itaque porro voluptate rem nam fuga. Sapiente, officiis autem ad iure nam cumque.</p>
+            <a href="center.html"class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="Images/aboutus.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!--------- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quia dolore alias, impedit architecto ea molestias quos voluptates perferendis doloremque <br> tempora recusandae illo accusamus ipsa, sit harum asperiores ipsum voluptatibus?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made by AYUSH MOTA</p>
+</section>
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
